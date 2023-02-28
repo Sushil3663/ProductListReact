@@ -1,0 +1,38 @@
+node -v -----> check version of nodejs
+npx create-react-app reactapp ---> Used to crate react app.
+npm start/yarn start -----> start react project
+rafce ------> react arrow function component export.
+
+// How to create react component
+//  Should Functional Component
+// should contain return 
+const App = () => {   //  Fat Arrow Function
+  return (
+    <div>
+      Hello . 
+      Welcome to React.
+    </div>
+  )
+}
+
+// Or we can do
+
+// function App()
+// {
+//  return(  // It should always return jsf
+//   <div>
+//     Hello . 
+//     Welcome to React.
+//   </div>
+// )
+// }
+
+// we export App so that we can import this in index.js
+
+Rule to write JSX.
+1. Can be many component.
+2. Should be inside component.
+3. ReactFragment can be witten as <> </>
+4. Class should be className like className = "myclass"
+5. Every start tag must have closing tag.
+6. Should be in camel case like onClick,className etc.
